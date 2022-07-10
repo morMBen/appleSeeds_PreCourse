@@ -1,0 +1,10 @@
+.header-container{
+    background: url('https://media-exp1.licdn.com/dms/image/C4E1BAQG2jKYk7zLo0w/company-background_10000/0/1615379733821?e=2159024400&v=beta&t=--AvO2TluRHr-JzJRnsFhrj-dnvF9GGAVaFj_nRt5gM');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

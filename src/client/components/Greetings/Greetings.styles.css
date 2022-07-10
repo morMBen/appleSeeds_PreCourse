@@ -1,0 +1,22 @@
+.greetings-container {
+    padding: 10px;
+    margin: 10px;
+}
+
+.greetings-container h2 {
+    font-size: 45px;
+}
+
+.greetings-container h3 {
+    font-size: 35px;
+}
+
+.greetings-container h4 {
+    font-size: 30px;
+}
+
+.msg-role{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

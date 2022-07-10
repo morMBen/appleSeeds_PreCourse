@@ -1,0 +1,148 @@
+[
+  {
+    "questionID": 0,
+    "question": "isTen is a function that receives 2 arguments (a and b).\nif the sum of a and b is 10 => return “makes 10”\nOtherwise return “nope”",
+    "firstCode": "const isTen = (a,b)=>{ \n//Your Code Here :-)\n\n}",
+    "parameters": "a,b",
+    "tests": [
+      {"value": {"a":11,"b":-1}, "result": "makes 10"},
+      {"value": {"a":1,"b":9}, "result": "makes 10"},
+      {"value": {"a":1,"b":8}, "result": "nope"},
+      {"value": {"a":-10,"b":20}, "result": "makes 10"},
+      {"value": {"a":-5,"b":-5}, "result": "nope"}
+    ]
+  },
+  {
+    "questionID": 1,
+    "question": "getWordByNumber is a function that get a argument 'num', num is a number between 0-9.\nThe function should return the number in words, i.e. if 'num=3' will return “three”.\n if the argument is out of range return 'invalid'.",
+    "firstCode": "const getWordByNumber = (num)=>{ \n//Your Code Here :-)\n\n}",
+    "parameters": "num",
+    "tests": [
+      {"value": {"num": -1}, "result": "invalid"},
+      {"value": {"num": 0}, "result": "zero"},
+      {"value": {"num": 1}, "result": "one"},
+      {"value": {"num": 2}, "result": "two"},
+      {"value": {"num": 3}, "result": "three"},
+      {"value": {"num": 4}, "result": "four"},
+      {"value": {"num": 5}, "result": "five"},
+      {"value": {"num": 6}, "result": "six"},
+      {"value": {"num": 7}, "result": "seven"},
+      {"value": {"num": 8}, "result": "eight"},
+      {"value": {"num": 9}, "result": "nine"},
+      {"value": {"num": 10}, "result": "invalid"},
+      {"value": {"num": "1"}, "result": "invalid"},
+      {"value": {"num": "a"}, "result": "invalid"},
+      {"value": {"num": "2a"}, "result": "invalid"}
+    ]
+  },
+  {
+    "questionID": 2,
+    "question":"biggestNumber is a function that receives 3 numbers (a , b ,c).\n function will return the biggest number.",
+    "firstCode": "const biggestNumber = (a,b,c)=>{\n//Your Code Here :-)\n\n }",
+    "parameters": "a,b,c",
+    "tests": [
+      {"value": {"a": 1,"b": 2,"c": 3}, "result": 3},
+      {"value": {"a": 10,"b": -2,"c": 9}, "result": 10},
+      {"value": {"a": 7,"b": 7.5,"c": 3}, "result": 10},
+      {"value": {"a": 7,"b": 7.5,"c": 3}, "result": 7.5},
+      {"value": {"a": -7,"b": -7.5,"c": -1}, "result": -1}
+    ]
+  },
+  {
+    "questionID": 3,
+    "question":"countOddFromZeroToNum function get argument num , the argument 'num' is a positive number.\nthe function returns the amount of the odd numbers from 0 to num (inclusive).",
+    "firstCode": "const countOddFromZeroToNum = (num)=>{ \n//Your Code Here :-)\n\n}",
+    "parameters": "num",
+    "tests": [
+      {"value": {"num": 4}, "result": 2},
+      {"value": {"num": 100}, "result": 50},
+      {"value": {"num": 7}, "result": 4},
+      {"value": {"num": 1}, "result": 1}
+    ]
+  },
+  {
+    "questionID": 5,
+    "question":"In Mathematics, the factorial of n is denoted by n! and calculated by the product of integer numbers from 1 to n. For instance:\n5! = 5 x 4 x 3 x 2 x 1 5! = 120\nfunction numFactorial that get a whole number (n) and return N factorial",
+    "firstCode": "const numFactorial = (num)=>{ }",
+    "tests": [
+      {"value": {"num": 1}, "result": 2}
+    ]
+  },
+  {
+    "questionID": 4,
+    "question":"In Mathematics, the factorial of n is denoted by n! and calculated by the product of integer numbers from 1 to n. For instance:\n5! = 5 x 4 x 3 x 2 x 1 5! = 120\nfunction numFactorial that get a whole number (n) and return N factorial",
+    "firstCode": "const numFactorial = (num)=>{ \n//Your Code Here :-)\n\n}",
+    "parameters": "num",
+    "tests": [
+      {"value": {"num": 5}, "result": 120},
+      {"value": {"num": 10}, "result": 3628800},
+      {"value": {"num": 2}, "result": 2}
+    ]
+  },
+  {
+    "questionID": 6,
+    "question":"divideOrHasSeven function receive 2 arguments : 'start' and 'end'\n the function return the amount of numbers that have on of \n 1 have a number 7 in on of the digit\n 2.number divide by 7",
+    "firstCode": "const divideOrHasSeven = (num)=>{ }",
+    "parameters": "start,end",
+    "tests": [
+      {"value": {"start": 5,"end":  22}, "result": 4},
+      {"value": {"start": 69,"end":  85}, "result": 11}
+    ]
+  },
+  {
+    "questionID": 7,
+    "question":"primeNumberFromOneToN function receive 1 argument 'n'\nthe function return the amount of Prime numbers from 1 to n",
+    "firstCode": "const primeNumberFromOneToN = (n)=>{ }",
+    "parameters": "n",
+    "tests": [
+      {"value": {"n": 100}, "result": 25},
+      {"value": {"n": 20}, "result": 8},
+      {"value": {"n": 10}, "result": 4}
+    ]
+  },
+  {
+    "questionID": 8,
+    "question":"capitalize function receive 1 argument 'word'\nthe function return word that capitalize all vowel letters (a, e, i, o, u,y)",
+    "firstCode": "const capitalize = (word)=>{ }",
+    "parameters": "word",
+    "tests": [
+      {"value": {"word": "Hello dear Bootcamper"}, "result": "HEllO dEAr BOOtcAmpEr"},
+      {"value": {"word": "avi cohen 2009"}, "result": "AvI cOhEn 2009"},
+      {"value": {"word": "eutopia"}, "result": "EUtOpIA"}
+    ]
+  },
+  {
+    "questionID": 9,
+    "question":"longestWord function receive 1 argument 'sentence'\nthe function return the longest word in the sentence, only letters will be counted (numbers and special signs will be ignored)",
+    "firstCode": "const longestWord = (sentence)=>{ }",
+    "parameters": "sentence",
+    "tests": [
+      {"value": {"sentence": "Hello dear Bootcamper"}, "result": "Bootcamper"},
+      {"value": {"sentence": "avi cohen 1234567"}, "result": "cohen"},
+      {"value": {"sentence": "javaScr1pt html 1234567890"}, "result": "javaScrpt"},
+      {"value": {"sentence": "a1b2c3 c55 1234567890"}, "result": "abc"}
+    ]
+  },
+  {
+    "questionID": 10,
+    "question":"longestWord function receive 1 argument 'arr' \nthe function return sum of arr",
+    "firstCode": "const sumArray = (arr)=>{ }",
+    "parameters": "arr",
+    "tests": [
+      {"value": {"arr": [1,2,3,4,5]}, "result": 15},
+      {"value": {"arr": [100,2,3,4,5]}, "result": 114},
+      {"value": {"arr": [1,2]}, "result": 3}
+    ]
+  },
+  {
+    "questionID": 11,
+    "question":"minNumberInArr function receive 1 argument 'arr' \nthe function return the min val in arr",
+    "firstCode": "const minNumberInArr = (arr)=>{ }",
+    "parameters": "arr",
+    "tests": [
+      {"value": {"arr": [1,2,3,4,5]}, "result": 1},
+      {"value": {"arr": [-10,-1,-100,-2]}, "result": -100},
+      {"value": {"arr": [3,-1,-10,20]}, "result": -10}
+    ]
+  }
+]
