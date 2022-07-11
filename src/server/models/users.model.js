@@ -70,7 +70,7 @@ usersSchema.statics.findByCredentials = async (email, passportId) => {
   }
   return user;
 };
-
+//
 usersSchema.methods.generateToken = function () {
   const user = this;
   const token = jwt.sign({ _id: user.passportId }, process.env.SECRET);
