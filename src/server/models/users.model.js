@@ -36,11 +36,6 @@ const usersSchema = new mongoose.Schema({
     type: String,
     trim: true,
     unique: true,
-    validate(value) {
-      if (!isIsraeliIdValid(value)) {
-        throw new Error('invalid passport ID');
-      }
-    },
   },
   role: {
     type: String,
